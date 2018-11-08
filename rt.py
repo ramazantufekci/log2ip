@@ -1,5 +1,7 @@
 import re
+//Author : ramazantufekci
 //apache log dosyası da kullanılabilir veya baska bir log dosyasıda
+
 log = open("/var/log/nginx/access.log", "r")
 d = log.read()
 pat =(r''
